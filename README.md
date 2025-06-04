@@ -27,7 +27,7 @@ bash install.sh
 python3 cyber_investigator.py
 ```
 
-**License Key**: `SYDSANUSI-2025-KEY123`
+**License Key**: contact saminu644@gmail.com for the private key 
 
 ---
 
