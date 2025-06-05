@@ -37,7 +37,7 @@ def sql_injection_detector():
     payloads = ["' OR '1'='1", "'--", "' OR '1'='1' --", "') OR ('1'='1"]
     for payload in payloads:
         print(f"Testing payload: {payload}")
-        os.system(f"curl "{url}{payload}"")
+        os.system(f'curl "{url}{payload}"')
 
 def sydsanusi_cracker():
     print("SydSanusiCracker - Educational Crypto Wallet Cracker")
