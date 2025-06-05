@@ -41,11 +41,7 @@ def sql_injection_detector():
 
 def sydsanusi_cracker():
     print("SydSanusiCracker - Educational Crypto Wallet Cracker")
-    print("1. Bitcoin
-2. Ethereum
-3. Tron
-4. BNB
-5. Litecoin")
+    print("1. Bitcoin\n2. Ethereum\n3. Tron\n4. BNB\n5. Litecoin")
     wallet_type = input("Select wallet type: ").strip()
     wordlist_path = input("Enter dictionary path: ").strip()
     if not os.path.exists(wordlist_path):
